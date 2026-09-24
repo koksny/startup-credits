@@ -49,16 +49,10 @@ offers:
         description: The startup contributes to the community, such as a blog post or social media mention. Auto-translation characters are excluded from all plans; more can be purchased, or the startup can use its own API key.
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            kind: manual
-            reason: vendor-discretion
-            statement: SimpleLocalize reviews the product and application; the offer is for genuine early-stage startups, not established companies looking to reduce costs.
-          - criterion_id: cri_02
-            kind: manual
-            reason: external-verification
-            statement: The startup contributes to the community, for example by writing a blog post or mentioning SimpleLocalize on social media.
+        criterion_id: cri_01
+        kind: manual
+        reason: vendor-discretion
+        statement: The offer is for genuine startups, not a loophole to reduce costs for established companies; SimpleLocalize primarily supports early-stage teams, individuals, and small businesses building new products, and the Developer Plan is free for the first year if you contribute to the community.
     roles:
       terms_authority_entity_id: ent_01m1qb7dnxnxdfygk0ak64t4xz
       access_operator_entity_id: ent_01m1qb7dnxnxdfygk0ak64t4xz
